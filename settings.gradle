@@ -1,0 +1,2 @@
+rootProject.name = "SmsVerifyBox"
+include ':app'
