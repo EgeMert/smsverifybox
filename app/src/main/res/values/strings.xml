@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SmsVerifyBox</string>
+    <string name="send">Send</string>
+    <string name="number_is">Number is: %s</string>
 </resources>

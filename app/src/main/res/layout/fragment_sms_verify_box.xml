@@ -94,5 +94,34 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:visibility="invisible"
+            android:text="@string/send"
+            android:background="@drawable/bg_button"
+            app:layout_constraintStart_toStartOf="@id/box1"
+            app:layout_constraintEnd_toEndOf="@id/box5"
+            app:layout_constraintTop_toBottomOf="@id/box1"/>
+
+        <TextView
+            android:id="@+id/numberIsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/number_is"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@id/sendButton"
+            app:layout_constraintEnd_toEndOf="@id/sendButton"
+            app:layout_constraintTop_toBottomOf="@id/sendButton"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
